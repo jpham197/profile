@@ -1,0 +1,35 @@
+html {
+	background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 25px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 200;
+	letter-spacing: 5px;
+}
+
+.social {
+	font-size: 50px;
+	margin-top: 50px;
+	letter-spacing: 0px;
+}
+
+.social a {
+	color: white;
+	margin-top: -10px;
+}
