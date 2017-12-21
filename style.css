@@ -29,7 +29,11 @@ h1 {
 	letter-spacing: 0px;
 }
 
+<<<<<<< HEAD
 i:hover, img:hover {
+=======
+i:hover {
+>>>>>>> 37479d391357629c4c52fe8ff56b7c1a3c5cbdb8
 	transform: scale(1.1, 1.1);
 }
 
