@@ -1,10 +1,12 @@
 html {
 	background: url(background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	font-family: 'Helvetica Neue', sans-serif;
+	max-width: 100%;
+	height: auto;
 }
 
 .box {
@@ -27,6 +29,10 @@ h1 {
 	font-size: 50px;
 	margin-top: 30px;
 	letter-spacing: 0px;
+}
+
+img {
+
 }
 
 i:hover, img:hover {
