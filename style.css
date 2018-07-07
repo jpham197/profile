@@ -1,10 +1,12 @@
 html {
 	background: url(background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	font-family: 'Helvetica Neue', sans-serif;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .box {
@@ -41,4 +43,10 @@ img {
 	width: 53px;
 	height: 100%;
 	vertical-align: bottom;
+}
+
+@media (max-width: 425px) {
+	.box {
+		width: 250px;
+	}
 }
