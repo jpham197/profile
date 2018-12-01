@@ -1,5 +1,5 @@
 html {
-	background: url(background.jpg) no-repeat center center fixed;
+	background: url(../assets/background.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -47,4 +47,16 @@ img {
 	width: 53px;
 	height: 100%;
 	vertical-align: bottom;
+}
+
+/* resume:link, resume:hover, resume:active, resume:visited {
+	color: white;
+} */
+
+#resume {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	bottom: 0;
+	right: 0;
 }
