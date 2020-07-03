@@ -10,7 +10,7 @@ var i;
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
         this.classList.toggle("active");
-        var content = this.nextElementSibling;
+        let content = this.nextElementSibling;
         if (content.style.display === "block") {
             content.style.display = "none";
         } else {
@@ -20,6 +20,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 let workExperience = [
+    {"title": "Software Engineer Intern", "org": "NCR", "date": "June 2020 - Aug 2020"},
     {"title": "IT Intern", "org": "Delta Air Lines", "date": "May 2019 - Aug 2019"},
     {"title": "TechX Intern", "org": "T-Mobile", "date": "June 2018 - May 2019"},
     {"title": "Workshop Trainer", "org": "GSU CETL", "date": "June 2017 - May 2018"}
