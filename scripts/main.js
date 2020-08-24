@@ -21,8 +21,8 @@ for (i = 0; i < coll.length; i++) {
 
 let workExperience = [
     {"title": "Software Engineer Intern", "org": "NCR", "date": "June 2020 - Aug 2020"},
-    {"title": "IT Intern", "org": "Delta Air Lines", "date": "May 2019 - Aug 2019"},
-    {"title": "TechX Intern", "org": "T-Mobile", "date": "June 2018 - May 2019"},
+    {"title": "IT & BA Intern", "org": "Delta Air Lines", "date": "May 2019 - Aug 2019"},
+    {"title": "Software Dev Intern", "org": "T-Mobile", "date": "June 2018 - May 2019"},
     {"title": "Workshop Trainer", "org": "GSU CETL", "date": "June 2017 - May 2018"}
 ]
 
