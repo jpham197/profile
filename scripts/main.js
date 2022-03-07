@@ -20,7 +20,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 let workExperience = [
-    {"title": "Software Engineer", "org": "Noogler", "date": "Mar 2022 - Present"},
+    {"title": "Software Engineer", "org": "Googler", "date": "Mar 2022 - Present"},
     {"title": "Software Engineer", "org": "Capital One", "date": "Feb 2021 - Present"},
     {"title": "Software Engineer Intern", "org": "NCR", "date": "June 2020 - Aug 2020"},
     {"title": "IT & BA Intern", "org": "Delta Air Lines", "date": "May 2019 - Aug 2019"},
